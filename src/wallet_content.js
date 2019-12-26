@@ -1,6 +1,6 @@
 import {EncryptedStream, LocalStream} from 'extension-streams';
 import IdGenerator from '@walletpack/core/util/IdGenerator'
-import {apis} from './util/BrowserApis';
+import {apis} from './util/browserapis';
 
 let stream = new WeakMap();
 
